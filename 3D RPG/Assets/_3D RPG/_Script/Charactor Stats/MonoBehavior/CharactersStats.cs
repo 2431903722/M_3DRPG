@@ -111,6 +111,11 @@ public class CharactersStats : MonoBehaviour
 
         //承受伤害，且血量不小于0
         CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
+
+        if (attacker.isCritical)
+        {
+            defener.GetComponentInChildren<Animator>().SetTrigger("Hit");
+        }
     }
 
     //获得当前状态下的随机伤害值

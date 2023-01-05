@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     //攻击冷却时间
     private float lastAttackTime;
 
+    //是否死亡
+    private bool isDead;
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -28,10 +31,14 @@ public class PlayerController : MonoBehaviour
         //将MoveToTarget这个方法添加进OnMouseClicked中
         MouseManager.Instance.OnMouseClicked += MoveToTarget;
         MouseManager.Instance.OnEnemyClicked += EventAttack;
+
+        GameManager.Instance.RigisterPlayer(charactersStats);
     }
 
     private void Update()
     {
+        isDead = charactersStats.CurrentHealth <= 0;
+
         SwitchAnimation();
 
         //冷却时间缩减
@@ -43,6 +50,7 @@ public class PlayerController : MonoBehaviour
     {
         //agent.velocity.sqrMagnitude可以获得速度的浮点类型
         anim.SetFloat("Speed", agent.velocity.sqrMagnitude);
+        anim.SetBool("Death", isDead);
     }
 
     //移动到点击对象，用来添加进OnMouseClicked的事件，因为事件创建时带有Vector3，所以这里要格式一致

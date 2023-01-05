@@ -9,7 +9,7 @@ using System;
 //[System.Serializable]
 //public class EventVector3 : UnityEvent<Vector3> { }
 
-public class MouseManager : MonoBehaviour
+public class MouseManager : Singleton<MouseManager>
 {
     RaycastHit hitInfo;
 
@@ -17,26 +17,20 @@ public class MouseManager : MonoBehaviour
     public event Action<Vector3> OnMouseClicked;
     public event Action<GameObject> OnEnemyClicked; 
 
-    //实现单例模式的静态变量
-    public static MouseManager Instance;
-
     //光标图片素材
     public Texture2D point, doorway, attack, target, arrow;
 
-    private void Awake()
+    protected override void Awake()
     {
-        if(Instance != null)
-        {
-            Destroy(gameObject);
-        }
-        Instance = this;
+        base.Awake();
+        //DontDestroyOnLoad(this);
     }
 
     void Update(){
         SetCursorTexture();
         MouseControl();  
     }
-
+     
     //设置材质贴图
     void SetCursorTexture(){
 
