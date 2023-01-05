@@ -65,16 +65,21 @@ public class PlayerController : MonoBehaviour
         {
             attackTarget = target;
 
+            //暴击判断
+            charactersStats.isCritical = UnityEngine.Random.value < charactersStats.attackData.criticalChance;
+
             //执行协程
             StartCoroutine(MoveToAttackTarget());
         }
     }
 
-    //协程
+    //协程,移动到攻击目标并攻击
     IEnumerator MoveToAttackTarget()
     {
+        //更改移动状态
         agent.isStopped = false;
 
+        //面向攻击目标
         transform.LookAt(attackTarget.transform);
 
         //与攻击对象的距离大于攻击距离
@@ -92,6 +97,9 @@ public class PlayerController : MonoBehaviour
         //攻击CD结束
         if(lastAttackTime < 0)
         {
+            //判断暴击
+            anim.SetBool("Critical", charactersStats.isCritical);
+            
             //播放攻击动画
             anim.SetTrigger("Attack");
 
@@ -99,4 +107,14 @@ public class PlayerController : MonoBehaviour
             lastAttackTime = 0.5f;
         }
     }
+
+    //攻击动画事件
+    void Hit()
+    {
+        //获取攻击目标的CharactersStats
+        var targetStats = attackTarget.GetComponent<CharactersStats>();
+
+        targetStats.TakeDamage(charactersStats, targetStats);
+    }   
+    
 }

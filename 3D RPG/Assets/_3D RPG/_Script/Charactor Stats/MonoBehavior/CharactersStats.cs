@@ -11,7 +11,7 @@ public class CharactersStats : MonoBehaviour
     [HideInInspector]
     public bool isCritical;
 
-    #region Read from Data_SO
+    #region Read from CharacterData_SO
     public int MaxHealth
     {
         get
@@ -100,4 +100,32 @@ public class CharactersStats : MonoBehaviour
         }
     }
     #endregion
+
+    //战斗相关
+
+    //承受伤害
+    public void TakeDamage(CharactersStats attacker, CharactersStats defener)
+    {
+        //确保伤害不会小于0
+        int damage = Mathf.Max(attacker.CurrentDamage() - defener.CurrentDefence, 0);
+
+        //承受伤害，且血量不小于0
+        CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
+    }
+
+    //获得当前状态下的随机伤害值
+    private int CurrentDamage()
+    {
+        //从最小伤害和最大伤害间取随机
+        float coreDamage = Random.Range(attackData.minDamage, attackData.maxDamage);
+
+        //判断暴击
+        if (isCritical)
+        {
+            coreDamage *= attackData.criticalMultiplier;
+            Debug.Log("暴击！" + coreDamage);
+        }
+
+        return (int)coreDamage;
+    }
 }

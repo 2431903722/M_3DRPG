@@ -296,4 +296,16 @@ public class EnemyController : MonoBehaviour
         //画一个线球
         Gizmos.DrawWireSphere(transform.position, sightRadius);
     }
+
+    //攻击动画事件
+    void Hit()
+    {
+        if(attackTarget != null)
+        {
+            //获取攻击目标的CharactersStats
+            var targetStats = attackTarget.GetComponent<CharactersStats>();
+
+            targetStats.TakeDamage(charactersStats, targetStats);
+        }
+    }
 }
