@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent agent;
     private EnmeyStates enmeyState;
     private Animator anim;
+    private CharactersStats charactersStats;
 
     [Header("Basic Settings")]
     //敌人可视范围
@@ -31,7 +32,8 @@ public class EnemyController : MonoBehaviour
     //在某个点等待的时间
     public float lookAtTime;
     private float remainLookAtTime;
-
+    //攻击计时器
+    private float lastAttackTime;
 
     [Header("Patrol State")]
     //巡逻范围
@@ -45,6 +47,7 @@ public class EnemyController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        charactersStats = GetComponent<CharactersStats>();
         originalSpeed = agent.speed;
         guardPosition = transform.position;
         remainLookAtTime = lookAtTime;
@@ -61,7 +64,7 @@ public class EnemyController : MonoBehaviour
         {
             enmeyState = EnmeyStates.PATROL;
             //提供初始巡逻点
-            getNewWayPoint();
+            GetNewWayPoint();
         }
     }
 
@@ -69,6 +72,9 @@ public class EnemyController : MonoBehaviour
     {
         SwitchStates();
         SwitchAnimation();
+        
+        //攻击计时器计时
+        lastAttackTime -= Time.deltaTime;
     }
 
     void SwitchAnimation()
@@ -76,6 +82,7 @@ public class EnemyController : MonoBehaviour
         anim.SetBool("Walk", isWalk);
         anim.SetBool("Chase", isChase);
         anim.SetBool("Follow", isFollow);
+        anim.SetBool("Critical", charactersStats.isCritical);
     }
 
     //切换敌人行动状态
@@ -85,7 +92,6 @@ public class EnemyController : MonoBehaviour
         if (FoundPlayer())
         {
             enmeyState = EnmeyStates.CHASE;
-            Debug.Log("找到Player!");
         }
 
         switch (enmeyState)
@@ -133,17 +139,99 @@ public class EnemyController : MonoBehaviour
         //追击时改变速度
         agent.speed = originalSpeed;
 
+        //玩家脱离视野
         if (!FoundPlayer())
         {
             //停留在当前位置
             isFollow = false;
-            agent.destination = transform.position;
+            if (remainLookAtTime > 0)
+            {
+                agent.destination = transform.position;
+                remainLookAtTime -= Time.deltaTime;
+            }
+            //如果是守卫状态的敌人则继续守卫
+            else if (isGuard)
+            {
+                enmeyState = EnmeyStates.GUARD;
+            }
+            //巡逻状态的敌人继续巡逻
+            else
+            {
+                enmeyState = EnmeyStates.PATROL;
+            }
         }
         else
         {
             //将目标点设为attackTarget
             isFollow = true;
+            agent.isStopped = false;
             agent.destination = attackTarget.transform.position;
+        }
+
+        //目标处于攻击范围内
+        if (TargetInAttackRange() || TargetInSkillRange())
+        {
+            isFollow = false;
+            agent.isStopped = true;
+
+            //攻击冷却完成
+            if (lastAttackTime <= 0)
+            {
+                //重置攻击计时器
+                lastAttackTime = charactersStats.attackData.coolDown;
+
+                //暴击判断
+                charactersStats.isCritical = Random.value < charactersStats.attackData.criticalChance;
+
+                //攻击
+                Attack();
+            }
+        }
+    }
+
+    //攻击
+    void Attack()
+    {
+        //转向攻击目标
+        transform.LookAt(attackTarget.transform);
+        
+        if (TargetInAttackRange())
+        {
+            //攻击
+            anim.SetTrigger("Attack");
+        }
+        if (TargetInSkillRange())
+        {
+            //释放技能
+            anim.SetTrigger("Skill");
+        }
+
+    }
+
+    //目标是否在攻击范围内
+    bool TargetInAttackRange()
+    {
+        if (attackTarget != null)
+        {
+            return Vector3.Distance(attackTarget.transform.position, transform.position) <= charactersStats.attackData.attackRange;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    //目标是否在技能范围内
+    bool TargetInSkillRange()
+    {
+        if (attackTarget != null)
+        {
+            return Vector3.Distance(transform.position, attackTarget.transform.position) <= charactersStats.attackData.skillRange;
+            
+        }
+        else
+        {
+            return false;
         }
     }
 
@@ -167,7 +255,7 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                getNewWayPoint();
+                GetNewWayPoint();
             }
         }
         else
@@ -178,7 +266,7 @@ public class EnemyController : MonoBehaviour
     }
 
     //随机获取一个新的路线点
-    void getNewWayPoint()
+    void GetNewWayPoint()
     {
         remainLookAtTime = lookAtTime;
 
@@ -200,7 +288,7 @@ public class EnemyController : MonoBehaviour
         wayPoint = randomPoint;
     }
 
-    //在场景中绘制一些图形以供判断
+    //在场景中绘制一些图形以供判断怪物视野
     private void OnDrawGizmosSelected()
     {
         //设置颜色

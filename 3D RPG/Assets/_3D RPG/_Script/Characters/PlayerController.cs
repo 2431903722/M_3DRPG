@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Animator anim;
+    private CharactersStats charactersStats;
 
     //攻击目标
     private GameObject attackTarget;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        charactersStats = GetComponent<CharactersStats>();
     }
 
     private void Start()
@@ -76,8 +78,7 @@ public class PlayerController : MonoBehaviour
         transform.LookAt(attackTarget.transform);
 
         //与攻击对象的距离大于攻击距离
-        //TODO:修改攻击距离
-        while (Vector3.Distance(attackTarget.transform.position, transform.position) > 1)
+        while (Vector3.Distance(attackTarget.transform.position, transform.position) > charactersStats.attackData.attackRange)
         {
             agent.destination = attackTarget.transform.position;
             //return null代表在下一帧再次执行上面的命令
