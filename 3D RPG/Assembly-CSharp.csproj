@@ -58,10 +58,12 @@
     <Compile Include="Assets\Assets Packs\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Managers\MouseManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\EnemyController.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Managers\GameManager.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Tools\IEndGameObserver.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Charactor Stats\MonoBehavior\CharactersStats.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\PlayerController.cs" />
-    <Compile Include="Assets\_3D RPG\_Script\Managers\GameManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Tools\Singleton.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Grunt.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />

@@ -39,6 +39,12 @@ public class PlayerController : MonoBehaviour
     {
         isDead = charactersStats.CurrentHealth <= 0;
 
+        //玩家死亡进行广播  
+        if (isDead)
+        {
+            GameManager.Instance.NotifyObservers();
+        }
+
         SwitchAnimation();
 
         //冷却时间缩减
@@ -59,6 +65,11 @@ public class PlayerController : MonoBehaviour
         //终止所有协程以执行当前指令
         StopAllCoroutines();
 
+        if (isDead)
+        {
+            return;
+        }
+
         //还原到可以移动的状态
         agent.isStopped = false;
 
@@ -68,8 +79,13 @@ public class PlayerController : MonoBehaviour
     //攻击事件，用来添加进OnMouseClicked的事件，因为事件创建时带有GameObject，所以这里要格式一致
     private void EventAttack(GameObject target)
     {
+        if (isDead)
+        {
+            return;
+        }
+
         //攻击目标不为空时执行
-        if(target != null)
+        if (target != null)
         {
             attackTarget = target;
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CharactersStats : MonoBehaviour
 {
+    public CharacterData_SO templateData;
+    
     public CharacterData_SO characterData;
 
     public AttackData_SO attackData;
@@ -100,6 +102,14 @@ public class CharactersStats : MonoBehaviour
         }
     }
     #endregion
+
+    void Awake()
+    {
+        if (templateData != null)
+        {
+            characterData = Instantiate(templateData);
+        }
+    }
 
     //’Ω∂∑œ‡πÿ
 

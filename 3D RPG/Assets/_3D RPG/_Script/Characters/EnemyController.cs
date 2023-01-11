@@ -8,8 +8,9 @@ public enum EnmeyStates { GUARD, PATROL, CHASE , DEAD }
 
 //当脚本所挂载的物体上没有对应组件时则自动添加相应组件
 [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(CharactersStats))]
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, IEndGameObserver
 {
     private NavMeshAgent agent;
     private EnmeyStates enmeyState;
@@ -22,7 +23,7 @@ public class EnemyController : MonoBehaviour
     public float sightRadius;
     
     //攻击对象
-    private GameObject attackTarget;
+    protected GameObject attackTarget;
 
     //敌人属性
     
@@ -32,6 +33,8 @@ public class EnemyController : MonoBehaviour
     bool isChase;
     bool isFollow;
     bool isDead;
+
+    bool playerDead;    
     
     //一般状态下的速度
     private float originalSpeed;
@@ -80,18 +83,40 @@ public class EnemyController : MonoBehaviour
             //提供初始巡逻点
             GetNewWayPoint();
         }
+
+        //FIXME:场景切换后修改
+        GameManager.Instance.AddObserver(this);
     }
 
+    //切换场景后启用
+    //void OnEnable()
+    //{
+    //    GameManager.Instance.AddObserver(this);
+    //}
+
+    void OnDisable()
+    {
+        if (!GameManager.Instance)
+        {
+            return;
+        }
+        GameManager.Instance.RemoveObserver(this);
+    }
+    
     private void Update()
     {
-        SwitchStates();
-        SwitchAnimation();
-        
-        //攻击计时器计时
-        lastAttackTime -= Time.deltaTime;
+        //玩家存活时才执行以下    
+        if (!playerDead)
+        {
+            SwitchStates();
+            SwitchAnimation();
+
+            //攻击计时器计时
+            lastAttackTime -= Time.deltaTime;
+        }
 
         //判断死亡
-        if(charactersStats.CurrentHealth <= 0)
+        if (charactersStats.CurrentHealth <= 0)
         {
             isDead = true;
         }
@@ -360,5 +385,17 @@ public class EnemyController : MonoBehaviour
 
             targetStats.TakeDamage(charactersStats, targetStats);
         }
+    }
+
+    public void EndNotify()
+    {
+        //获胜动画
+        //停止所有移动
+        //停止Agent
+        anim.SetBool("Win", true);
+        playerDead = true;
+        isChase = false;
+        isWalk = false;
+        attackTarget = null;
     }
 }

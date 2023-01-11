@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637982350045269069
+      ticks: 638089603710125601
     m_Hash: 4114847693
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -104,6 +104,9 @@ m_PackageAssets:
         - 2.9.0-pre.1
         - 2.9.0-pre.6
         - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 3.0.0-pre.3
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -145,6 +148,8 @@ m_PackageAssets:
         - 2.9.0-pre.1
         - 2.9.0-pre.6
         - 2.9.1
+        - 2.9.2
+        - 2.9.4
         verified: 2.6.17
       dependencies: []
       resolvedDependencies: []
@@ -263,6 +268,8 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -388,6 +395,9 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
         compatible:
         - 1.0.2
         - 1.0.6
@@ -420,6 +430,9 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -495,6 +508,7 @@ m_PackageAssets:
         - 2.0.14
         - 2.0.15
         - 2.0.16
+        - 2.0.17
         compatible:
         - 1.0.2
         - 1.0.3
@@ -515,7 +529,8 @@ m_PackageAssets:
         - 2.0.14
         - 2.0.15
         - 2.0.16
-        verified: 2.0.16
+        - 2.0.17
+        verified: 2.0.17
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -990,6 +1005,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.3.2
         - 10.4.0
@@ -1097,7 +1113,11 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
@@ -1109,7 +1129,11 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         verified: 1.1.33
@@ -1273,6 +1297,7 @@ m_PackageAssets:
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
+        - 3.2.0-pre.4
         - 4.0.0-pre.1
         compatible:
         - 3.0.1
@@ -1283,6 +1308,7 @@ m_PackageAssets:
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
+        - 3.2.0-pre.4
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1413,6 +1439,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         compatible:
         - 1.4.6
         - 1.4.7
@@ -1443,6 +1471,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3562,6 +3592,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.3.2
         - 10.4.0
@@ -3717,6 +3748,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.3.2
         - 10.4.0
