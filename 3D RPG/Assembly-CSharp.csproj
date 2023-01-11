@@ -65,6 +65,7 @@
     <Compile Include="Assets\_3D RPG\_Script\Tools\Singleton.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Grunt.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Animation Behavior\StopAgent.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Tools\ExtensionMethod.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />

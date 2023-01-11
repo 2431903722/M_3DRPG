@@ -378,7 +378,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     //攻击动画事件
     void Hit()
     {
-        if(attackTarget != null)
+        if(attackTarget != null && transform.IsFacingTarget(attackTarget.transform))
         {
             //获取攻击目标的CharactersStats
             var targetStats = attackTarget.GetComponent<CharactersStats>();
