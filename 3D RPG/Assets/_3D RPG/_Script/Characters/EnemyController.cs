@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     private NavMeshAgent agent;
     private EnmeyStates enmeyState;
     private Animator anim;
-    private CharactersStats charactersStats;
+    protected CharactersStats charactersStats;
     private Collider coll;
 
     [Header("Basic Settings")]
@@ -365,7 +365,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
             agent.destination = guardPosition;
 
             //判断是否到达守卫点
-            if (Vector3.SqrMagnitude(guardPosition - transform.position) <= agent.stoppingDistance)
+            if (Vector3.SqrMagnitude(guardPosition - transform.position) <= agent.stoppingDistance * 2)
             {
                 isWalk = false;
                 
