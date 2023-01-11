@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda9981615ba5654988e3b59f0110788, type: 3}
   m_Name: Grunt Attack
   m_EditorClassIdentifier: 
-  attackRange: 2
-  skillRange: 1.2
-  coolDown: 1.5
+  attackRange: 2.5
+  skillRange: 1.6
+  coolDown: 2
   minDamage: 5
   maxDamage: 7
   criticalMultiplier: 2

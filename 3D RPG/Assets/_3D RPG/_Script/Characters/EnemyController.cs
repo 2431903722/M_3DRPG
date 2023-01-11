@@ -158,7 +158,8 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
                 break;
             case EnmeyStates.DEAD:
                 coll.enabled = false;
-                agent.enabled = false;
+                //agent.enabled = false;
+                agent.radius = 0;
                 Destroy(gameObject, 2f);
                 break;
         }
@@ -249,18 +250,18 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     {
         //转向攻击目标
         transform.LookAt(attackTarget.transform);
-        
-        if (TargetInAttackRange())
-        {
-            //攻击
-            anim.SetTrigger("Attack");
-        }
+
         if (TargetInSkillRange())
         {
             //释放技能
             anim.SetTrigger("Skill");
         }
 
+        if (TargetInAttackRange() && !TargetInSkillRange())
+        {
+            //攻击
+            anim.SetTrigger("Attack");
+        }       
     }
 
     //目标是否在攻击范围内
@@ -282,7 +283,6 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
         if (attackTarget != null)
         {
             return Vector3.Distance(transform.position, attackTarget.transform.position) <= charactersStats.attackData.skillRange;
-            
         }
         else
         {
