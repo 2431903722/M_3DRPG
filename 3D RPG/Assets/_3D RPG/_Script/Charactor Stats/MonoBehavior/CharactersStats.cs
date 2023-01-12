@@ -1,13 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CharactersStats : MonoBehaviour
 {
-    public CharacterData_SO templateData;
+    public event Action<int, int> UpdateHealthBarOnAttack;
     
+    public CharacterData_SO templateData;
     public CharacterData_SO characterData;
-
     public AttackData_SO attackData;
 
     [HideInInspector]
@@ -122,10 +123,14 @@ public class CharactersStats : MonoBehaviour
         //承受伤害，且血量不小于0
         CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
 
+        //暴击播放受击动画
         if (attacker.isCritical)
         {
             defener.GetComponentInChildren<Animator>().SetTrigger("Hit");
         }
+
+        //更新血条
+        UpdateHealthBarOnAttack?.Invoke(CurrentHealth, MaxHealth);
     }
 
     //重载
@@ -133,13 +138,16 @@ public class CharactersStats : MonoBehaviour
     {
         int currentDamge = Mathf.Max(damage - defener.CurrentDefence, 0);
         CurrentHealth = Mathf.Max(CurrentHealth - currentDamge, 0);
+
+        //更新血条
+        UpdateHealthBarOnAttack?.Invoke(CurrentHealth, MaxHealth);
     }
 
     //获得当前状态下的随机伤害值
     private int CurrentDamage()
     {
         //从最小伤害和最大伤害间取随机
-        float coreDamage = Random.Range(attackData.minDamage, attackData.maxDamage);
+        float coreDamage = UnityEngine.Random.Range(attackData.minDamage, attackData.maxDamage);
 
         //判断暴击
         if (isCritical)

@@ -58,16 +58,17 @@
     <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Golem.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Charactor Stats\ScriptableObject\CharacterData_SO.cs" />
     <Compile Include="Assets\Assets Packs\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\UI\HealthBarUI.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Managers\MouseManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\EnemyController.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Managers\GameManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Tools\IEndGameObserver.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Rock.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Animation Behavior\StopAgent.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Charactor Stats\MonoBehavior\CharactersStats.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\PlayerController.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Tools\Singleton.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Grunt.cs" />
-    <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Rock.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
@@ -668,11 +669,14 @@
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
