@@ -19,11 +19,15 @@ public class PlayerController : MonoBehaviour
     //是否死亡
     private bool isDead;
 
+    private float stopDistance;
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         charactersStats = GetComponent<CharactersStats>();
+
+        stopDistance = agent.stoppingDistance;
     }
 
     private void Start()
@@ -72,6 +76,7 @@ public class PlayerController : MonoBehaviour
 
         //还原到可以移动的状态
         agent.isStopped = false;
+        agent.stoppingDistance = stopDistance;
 
         agent.destination = target;
     }
@@ -102,6 +107,8 @@ public class PlayerController : MonoBehaviour
     {
         //更改移动状态
         agent.isStopped = false;
+
+        agent.stoppingDistance = charactersStats.attackData.attackRange;
 
         //面向攻击目标
         transform.LookAt(attackTarget.transform);
