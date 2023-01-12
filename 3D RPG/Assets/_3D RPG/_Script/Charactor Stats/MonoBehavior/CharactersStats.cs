@@ -128,6 +128,13 @@ public class CharactersStats : MonoBehaviour
         }
     }
 
+    //重载
+    public void TakeDamage(int damage, CharactersStats defener)
+    {
+        int currentDamge = Mathf.Max(damage - defener.CurrentDefence, 0);
+        CurrentHealth = Mathf.Max(CurrentHealth - currentDamge, 0);
+    }
+
     //获得当前状态下的随机伤害值
     private int CurrentDamage()
     {

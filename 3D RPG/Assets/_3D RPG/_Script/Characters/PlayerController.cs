@@ -142,10 +142,23 @@ public class PlayerController : MonoBehaviour
     //攻击动画事件
     void Hit()
     {
-        //获取攻击目标的CharactersStats
-        var targetStats = attackTarget.GetComponent<CharactersStats>();
+        if (attackTarget.CompareTag("Attackable"))
+        {
+            if (attackTarget.GetComponent<Rock>() && attackTarget.GetComponent<Rock>().rockStates == Rock.RockStates.HitNoting)
+            {
+                attackTarget.GetComponent<Rock>().rockStates = Rock.RockStates.HitEnemy;
 
-        targetStats.TakeDamage(charactersStats, targetStats);
+                attackTarget.GetComponent<Rigidbody>().velocity = Vector3.one;
+                attackTarget.GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
+            }
+        }
+        else
+        {
+            //获取攻击目标的CharactersStats
+            var targetStats = attackTarget.GetComponent<CharactersStats>();
+
+            targetStats.TakeDamage(charactersStats, targetStats);
+        }
     }   
     
 }

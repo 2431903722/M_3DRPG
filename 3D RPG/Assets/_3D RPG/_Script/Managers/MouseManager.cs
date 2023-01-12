@@ -69,6 +69,12 @@ public class MouseManager : Singleton<MouseManager>
                 //？判断OnEnemyClicked是否为空，空则传入参数唤醒事件，且因为是Action event，所以会执行所有添加进去的事件
                 OnEnemyClicked?.Invoke(hitInfo.collider.gameObject);
             }
+
+            if (hitInfo.collider.gameObject.CompareTag("Attackable"))
+            {
+                //？判断OnEnemyClicked是否为空，空则传入参数唤醒事件，且因为是Action event，所以会执行所有添加进去的事件
+                OnEnemyClicked?.Invoke(hitInfo.collider.gameObject);
+            }
         }
     }
 }
