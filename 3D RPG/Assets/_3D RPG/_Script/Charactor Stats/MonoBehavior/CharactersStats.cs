@@ -131,6 +131,12 @@ public class CharactersStats : MonoBehaviour
 
         //更新血条
         UpdateHealthBarOnAttack?.Invoke(CurrentHealth, MaxHealth);
+
+        //获得经验
+        if (CurrentHealth <= 0)
+        {
+            attacker.characterData.UpdateExp(characterData.killPoint);
+        }
     }
 
     //重载
