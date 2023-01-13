@@ -147,6 +147,11 @@ public class CharactersStats : MonoBehaviour
 
         //更新血条
         UpdateHealthBarOnAttack?.Invoke(CurrentHealth, MaxHealth);
+
+        if (CurrentHealth <= 0)
+        {
+            GameManager.Instance.playerStats.characterData.UpdateExp(characterData.killPoint);
+        }
     }
 
     //获得当前状态下的随机伤害值
