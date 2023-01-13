@@ -274,3 +274,708 @@ Received Import Request.
 Start importing Assets/_3D RPG/_Game Data/Character Data/Player Data.asset using Guid(7254ce47b3592fe4fba42849e3b776b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a68bc9ef1c517fa4071d6a160c7bcd2') in 0.017667 seconds
   Import took 0.023686 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1906.491680 seconds.
+  path: Assets/_3D RPG/_Script/UI/PlayerHealthUI.cs
+  artifactKey: Guid(e90af308394ecec4289b7c0927ff135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Script/UI/PlayerHealthUI.cs using Guid(e90af308394ecec4289b7c0927ff135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1f13f277b0d7e8309fe666e6895a9c') in 0.007819 seconds
+  Import took 0.054158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001376 seconds.
+  path: Assets/_3D RPG/_Script/UI/PlayerHealthUI.cs
+  artifactKey: Guid(e90af308394ecec4289b7c0927ff135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Script/UI/PlayerHealthUI.cs using Guid(e90af308394ecec4289b7c0927ff135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1f13f277b0d7e8309fe666e6895a9c') in 0.004108 seconds
+  Import took 0.009220 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.4 MB.
+System memory in use after: 139.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3651.
+Total: 3.839800 ms (FindLiveObjects: 0.664000 ms CreateObjectMapping: 0.224000 ms MarkObjects: 2.783000 ms  DeleteObjects: 0.166300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.4 MB.
+System memory in use after: 139.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3654.
+Total: 5.477600 ms (FindLiveObjects: 0.544500 ms CreateObjectMapping: 0.103500 ms MarkObjects: 4.620500 ms  DeleteObjects: 0.207000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.4 MB.
+System memory in use after: 139.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3657.
+Total: 2.633500 ms (FindLiveObjects: 0.349200 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.083600 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.5 MB.
+System memory in use after: 139.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 4.913000 ms (FindLiveObjects: 0.503900 ms CreateObjectMapping: 0.108000 ms MarkObjects: 4.166300 ms  DeleteObjects: 0.132800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.5 MB.
+System memory in use after: 139.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3663.
+Total: 3.718100 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.157900 ms MarkObjects: 2.955600 ms  DeleteObjects: 0.140000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1227.635763 seconds.
+  path: Assets/_3D RPG/_Game Data/Character Data/Player Data.asset
+  artifactKey: Guid(7254ce47b3592fe4fba42849e3b776b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Game Data/Character Data/Player Data.asset using Guid(7254ce47b3592fe4fba42849e3b776b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152d8267c4f89c9728cba9794145a1c9') in 0.072946 seconds
+  Import took 0.078893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.769509 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/New Shader Graph.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/New Shader Graph.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43346c02aac43653d64599b74e3bb5a4') in 0.010397 seconds
+  Import took 0.016505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.535716 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/New Shader Graph.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/New Shader Graph.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43346c02aac43653d64599b74e3bb5a4') in 0.005147 seconds
+  Import took 0.010551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.699586 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Occlusion Shader.shadergraph
+  artifactKey: Guid(27162a1418b84a94180744cb6ac457bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Occlusion Shader.shadergraph using Guid(27162a1418b84a94180744cb6ac457bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ac7156d4dbc68eca53970ae9bbadce') in 0.004391 seconds
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.090692 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a570f81b94cc5f0f7844e6cce89402') in 0.005573 seconds
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1955.701803 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/Albedo.png
+  artifactKey: Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/Albedo.png using Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2719b9ec6a34893ce735e7a7b735c') in 0.519309 seconds
+  Import took 0.525786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/AlbedoGolem.png
+  artifactKey: Guid(8e14ac0e081c92e419d772a166b7ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/AlbedoGolem.png using Guid(8e14ac0e081c92e419d772a166b7ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d15a856cd07c8ffa11254c01cd983b0') in 0.326638 seconds
+  Import took 0.332200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/Albedo.png
+  artifactKey: Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/Albedo.png using Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2719b9ec6a34893ce735e7a7b735c') in 0.011454 seconds
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/HP/Grunt_Red.png
+  artifactKey: Guid(5f4db5eb140577649a98e791cedcf0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/HP/Grunt_Red.png using Guid(5f4db5eb140577649a98e791cedcf0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58208ea3b5cd0ad2f4897271e48ec5f3') in 0.194961 seconds
+  Import took 0.200671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/MS.png
+  artifactKey: Guid(f4da30a223a78034fbc3c563d2a924a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/MS.png using Guid(f4da30a223a78034fbc3c563d2a924a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5228087cc3d97f01ce6dc10e11ccd') in 0.143140 seconds
+  Import took 0.148906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeAO.png
+  artifactKey: Guid(8b1d902bfa42d6d45b7df7066021bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeAO.png using Guid(8b1d902bfa42d6d45b7df7066021bca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b8e61896a343149e0e858d54fba0a7') in 0.236192 seconds
+  Import took 0.241347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png
+  artifactKey: Guid(a469451b6efe62649a2ad1eaf645e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png using Guid(a469451b6efe62649a2ad1eaf645e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53880847711568fdc777c900fbbc323e') in 0.027138 seconds
+  Import took 0.032344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/AO.png
+  artifactKey: Guid(ab3e8c0e82b3db8429abc130ac9e62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/AO.png using Guid(ab3e8c0e82b3db8429abc130ac9e62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff90d44b75b26bb61bdc56c33b54653') in 0.130202 seconds
+  Import took 0.135879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeMS.png
+  artifactKey: Guid(328ee0dc1b1fc1c47ba597549be9d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeMS.png using Guid(328ee0dc1b1fc1c47ba597549be9d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dd2e54ac563b3f18741ab3a3004c25') in 0.193579 seconds
+  Import took 0.198426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b114cdbbf525e727c2825e8673fef3b') in 1.242890 seconds
+  Import took 1.252675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PolyartStandard.png
+  artifactKey: Guid(56c91d7e15663f44b9facd7fe19318b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PolyartStandard.png using Guid(56c91d7e15663f44b9facd7fe19318b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd20685d42cb4b3591a9c3aba339da35') in 0.011307 seconds
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png
+  artifactKey: Guid(19bb4fe4d3f7dc640907e64ce8d1865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png using Guid(19bb4fe4d3f7dc640907e64ce8d1865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4fd9e082a5f3afd3457e33631152c3') in 0.032855 seconds
+  Import took 0.038984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_3D RPG/_Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(7a3e42736aea54b40b9b81822e43fa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Scenes/SampleScene/ReflectionProbe-0.exr using Guid(7a3e42736aea54b40b9b81822e43fa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd01beaff074d4a7120a6253fae96db') in 0.031711 seconds
+  Import took 0.036744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png
+  artifactKey: Guid(ea614ba314598d14ebe9e9cdff6a47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png using Guid(ea614ba314598d14ebe9e9cdff6a47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65df6689a8dc8c6d6b897e4c8c21f56') in 0.028113 seconds
+  Import took 0.034004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/AOGolem.png
+  artifactKey: Guid(d124a198778d8ab489c40a2def2dbe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/AOGolem.png using Guid(d124a198778d8ab489c40a2def2dbe78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8017d80f009931c47b40b512c8ca7') in 0.170576 seconds
+  Import took 0.176616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/Normal.png
+  artifactKey: Guid(fe860d9813d9fba43a6db2f1dc9d2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/Normal.png using Guid(fe860d9813d9fba43a6db2f1dc9d2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae3f9d9a3c9ed0ace3bacf5fd05cc05') in 0.155668 seconds
+  Import took 0.161263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeNormal.png
+  artifactKey: Guid(0af840f9f9eecb74da1600eb55dab3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeNormal.png using Guid(0af840f9f9eecb74da1600eb55dab3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5438bea010ca314086213d195f280b04') in 0.265607 seconds
+  Import took 0.271496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png
+  artifactKey: Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png using Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e9b664552e21bc965a325eba877196') in 0.033402 seconds
+  Import took 0.038315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets Packs/DogKnight/Texture/StandardAlbedo.png
+  artifactKey: Guid(5b981358eaa6be84dbe67e39c78e448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/DogKnight/Texture/StandardAlbedo.png using Guid(5b981358eaa6be84dbe67e39c78e448b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41caab15db036a9b251e4b6d47e27377') in 0.023564 seconds
+  Import took 0.029112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/HP_Golem.png
+  artifactKey: Guid(c3b7a6b86247cb444ad8371d3c086086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/HP_Golem.png using Guid(c3b7a6b86247cb444ad8371d3c086086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f154552cee7f11c213700afa1e05b67') in 0.156331 seconds
+  Import took 0.161815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png
+  artifactKey: Guid(7976e834fdd8a3a43843322f15ca5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png using Guid(7976e834fdd8a3a43843322f15ca5ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72821347f7de6c9aa2d2c6b44bf20714') in 0.054354 seconds
+  Import took 0.060677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/EmissionGolem.png
+  artifactKey: Guid(2c228118eb117524e9d248a4fc17de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/EmissionGolem.png using Guid(2c228118eb117524e9d248a4fc17de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cefcf9378c0ef0bfbee25c094047f7') in 0.216529 seconds
+  Import took 0.222165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Assets Packs/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c98a02b91d0a8c78504886a1a4559c9') in 0.051273 seconds
+  Import took 0.057397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Assets Packs/3D/Next_Log/Free_City_Map/Map/Texture/Free_City_01.png
+  artifactKey: Guid(e5d070b335af86e4e9fee0c990272d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/3D/Next_Log/Free_City_Map/Map/Texture/Free_City_01.png using Guid(e5d070b335af86e4e9fee0c990272d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c1aeb532e1fad0a09e07fcbb63177c') in 0.021118 seconds
+  Import took 0.027247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png
+  artifactKey: Guid(18abd5f4e9c11924a95611d5a0813704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png using Guid(18abd5f4e9c11924a95611d5a0813704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a172a02127abc1b1d1d19022c0d65e67') in 0.028235 seconds
+  Import took 0.033493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png
+  artifactKey: Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png using Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b573c11b33d29da51a6156a59f688d6') in 0.025990 seconds
+  Import took 0.031661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/PolyartStandard.png
+  artifactKey: Guid(15b0ee25e3ee5d6479de36fa2862d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/PolyartStandard.png using Guid(15b0ee25e3ee5d6479de36fa2862d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe4b99fc78ece73d7f3084dbbc02137') in 0.008765 seconds
+  Import took 0.014183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeAlbedo.png
+  artifactKey: Guid(bf102a4efa65ea3439ffd44a3af0238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeAlbedo.png using Guid(bf102a4efa65ea3439ffd44a3af0238a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea9d54bbf807e1315712580cbf8bab') in 0.173607 seconds
+  Import took 0.180417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Assets Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca548ed1dca25a9fcf8ca34145a960f6') in 2.331773 seconds
+  Import took 2.360624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/MRGolem.png
+  artifactKey: Guid(356014505e5532341b63295eeada6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/MRGolem.png using Guid(356014505e5532341b63295eeada6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d7e015c123ce1de70fcef9eaac8ad') in 0.247977 seconds
+  Import took 0.260389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/Assets Packs/LowPolyWater_Pack/Textures/Foam.tga
+  artifactKey: Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/LowPolyWater_Pack/Textures/Foam.tga using Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc233e3ce09af59fb301376c277468b4') in 0.092228 seconds
+  Import took 0.102068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png
+  artifactKey: Guid(55ceae9efe5bd70448ee58c1d30bb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png using Guid(55ceae9efe5bd70448ee58c1d30bb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87635bc680f89524219fc7de95c3945d') in 0.039028 seconds
+  Import took 0.047243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/NormalGolem.png
+  artifactKey: Guid(d44803ef50e988443a59950806d14a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Rock Golem PBR HP Polyart/Textures/NormalGolem.png using Guid(d44803ef50e988443a59950806d14a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d3adfa63d06009f4ead1e500454cb7') in 0.194646 seconds
+  Import took 0.203223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeEmission.png
+  artifactKey: Guid(24b6d821ed038eb438afa81a03f84cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/Mini Legion Grunt PBR HP Polyart/Textures/PBR/FreeEmission.png using Guid(24b6d821ed038eb438afa81a03f84cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459d8be1ff2135fb0e855cb1a1f3296d') in 0.224162 seconds
+  Import took 0.232331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png
+  artifactKey: Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png using Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9620e997bcd36395946de155839bf215') in 0.040830 seconds
+  Import took 0.050904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.917294 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b509b71e021b966c9914607a1392e') in 0.007177 seconds
+  Import took 0.012473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.555662 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Shader Graphs_Portal Shader.mat
+  artifactKey: Guid(88dfac6a752af054680abb1ee775b334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Shader Graphs_Portal Shader.mat using Guid(88dfac6a752af054680abb1ee775b334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5ebe07311a7691080b45253db54a3') in 0.237719 seconds
+  Import took 0.244398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.554464 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e097fdb0c94077523d0a0353beda7743') in 0.006046 seconds
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.469069 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cff375240ec078fee70e001771c1c2') in 0.005003 seconds
+  Import took 0.010477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.025738 seconds.
+  path: Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph
+  artifactKey: Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Materials/Shader Graph/Portal Shader.shadergraph using Guid(73c0f0eb1899e5f4b9f4f301388e3328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53311e0a666fab47df2974772f6c9ae') in 0.004915 seconds
+  Import took 0.010884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.554231 seconds.
+  path: Assets/_3D RPG/_Script/Transition
+  artifactKey: Guid(2e3e30fcd17c4e24a9f297fc209c429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Script/Transition using Guid(2e3e30fcd17c4e24a9f297fc209c429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89baad33efd39d0f8320648d0f7fd67') in 0.003660 seconds
+  Import took 0.009345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.404443 seconds.
+  path: Assets/_3D RPG/_Script/Transition/TransitionPoint.cs
+  artifactKey: Guid(169bdde7c4709164080094d46f359a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Script/Transition/TransitionPoint.cs using Guid(169bdde7c4709164080094d46f359a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1778766342ae5d49a9a41c14641f469') in 0.004653 seconds
+  Import took 0.010236 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3752.
+Total: 2.890200 ms (FindLiveObjects: 0.444700 ms CreateObjectMapping: 0.143600 ms MarkObjects: 2.154800 ms  DeleteObjects: 0.145800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.899852 seconds.
+  path: Assets/_3D RPG/_Script/Transition/TransitionDestination.cs
+  artifactKey: Guid(15b453549a21e2341931734827c66221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Script/Transition/TransitionDestination.cs using Guid(15b453549a21e2341931734827c66221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1c4550dba5c62338a261f717df6db9') in 0.018135 seconds
+  Import took 0.024141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3756.
+Total: 3.241800 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.111600 ms MarkObjects: 2.523900 ms  DeleteObjects: 0.120300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.421851 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90623c0c09b9b2cfbfee7ea7454332c') in 0.182166 seconds
+  Import took 0.188006 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3795.
+Total: 3.571800 ms (FindLiveObjects: 0.638100 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.725100 ms  DeleteObjects: 0.107600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 464.828376 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803989cbb760cf7d196b90fb5e721ac9') in 0.173951 seconds
+  Import took 0.181107 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3834.
+Total: 5.133600 ms (FindLiveObjects: 0.806700 ms CreateObjectMapping: 0.336100 ms MarkObjects: 3.791900 ms  DeleteObjects: 0.196400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.954375 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c8c0e59ce2504f139595674c67a2a8') in 0.187678 seconds
+  Import took 0.194382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.948444 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b337c00dce375e0df6b3d9431c040e5') in 0.012875 seconds
+  Import took 0.018722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023572 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b337c00dce375e0df6b3d9431c040e5') in 0.032104 seconds
+  Import took 0.037928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.459699 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31244b69b3613acf74e4339366803fca') in 0.012812 seconds
+  Import took 0.017699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31244b69b3613acf74e4339366803fca') in 0.013245 seconds
+  Import took 0.018241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.9 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3873.
+Total: 2.961300 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.242800 ms  DeleteObjects: 0.099900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.134752 seconds.
+  path: Assets/_3D RPG/_Prefab/Portal.prefab
+  artifactKey: Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3D RPG/_Prefab/Portal.prefab using Guid(7237a599ace9efc46b3810cb39bb30bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9efa228d10a4347169e9248e0a2375e') in 0.161595 seconds
+  Import took 0.168439 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
