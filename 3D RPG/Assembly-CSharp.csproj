@@ -61,17 +61,18 @@
     <Compile Include="Assets\_3D RPG\_Script\UI\HealthBarUI.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Managers\MouseManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\EnemyController.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Transition\TransitionDestination.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Transition\TransitionPoint.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Managers\GameManager.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Tools\IEndGameObserver.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Rock.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\UI\PlayerHealthUI.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Animation Behavior\StopAgent.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Charactor Stats\MonoBehavior\CharactersStats.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\PlayerController.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Tools\Singleton.cs" />
     <Compile Include="Assets\_3D RPG\_Script\Characters\Enemy\Grunt.cs" />
-    <Compile Include="Assets\_3D RPG\_Script\UI\PlayerHealthUI.cs" />
-    <Compile Include="Assets\_3D RPG\_Script\Transition\TransitionPoint.cs" />
-    <Compile Include="Assets\_3D RPG\_Script\Transition\TransitionDestination.cs" />
+    <Compile Include="Assets\_3D RPG\_Script\Transition\SceneController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />

@@ -49,6 +49,9 @@ public class MouseManager : Singleton<MouseManager>
                 case "Enemy":
                     Cursor.SetCursor(attack, new Vector2(16, 16), CursorMode.Auto);
                     break;
+                case "Portal":
+                    Cursor.SetCursor(doorway, new Vector2(16, 16), CursorMode.Auto);
+                    break;
             }
         }
     }
@@ -73,6 +76,11 @@ public class MouseManager : Singleton<MouseManager>
             if (hitInfo.collider.gameObject.CompareTag("Attackable"))
             {
                 //？判断OnEnemyClicked是否为空，空则传入参数唤醒事件，且因为是Action event，所以会执行所有添加进去的事件
+                OnEnemyClicked?.Invoke(hitInfo.collider.gameObject);
+            }
+
+            if (hitInfo.collider.gameObject.CompareTag("Portal"))
+            {
                 OnEnemyClicked?.Invoke(hitInfo.collider.gameObject);
             }
         }
