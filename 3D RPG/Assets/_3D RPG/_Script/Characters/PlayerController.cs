@@ -32,11 +32,22 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        //注册玩家
+        GameManager.Instance.RigisterPlayer(charactersStats);
+    }
+
+    private void OnEnable()
+    {
         //将MoveToTarget这个方法添加进OnMouseClicked中
         MouseManager.Instance.OnMouseClicked += MoveToTarget;
         MouseManager.Instance.OnEnemyClicked += EventAttack;
+    }
 
-        GameManager.Instance.RigisterPlayer(charactersStats);
+    void OnDisable()
+    {
+        //人物消失时取消订阅方法
+        MouseManager.Instance.OnMouseClicked -= MoveToTarget;
+        MouseManager.Instance.OnEnemyClicked -= EventAttack;
     }
 
     private void Update()
