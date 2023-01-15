@@ -51,5 +51,19 @@ public class GameManager : Singleton<GameManager>
             observer.EndNotify();
         }
     }
+
+    //寻找该场景入口
+    public Transform GetEntrance()
+    {
+        foreach (var item in FindObjectsOfType<TransitionDestination>())
+        {
+            if (item.destinationTag == TransitionDestination.DestinationTag.ENTER)
+            {
+                return item.transform;
+            }
+        }
+
+        return null;
+    }
 }
 

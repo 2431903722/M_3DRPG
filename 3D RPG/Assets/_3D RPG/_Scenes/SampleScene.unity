@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4805522548364968278, guid: 7237a599ace9efc46b3810cb39bb30bc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4805522548364968278, guid: 7237a599ace9efc46b3810cb39bb30bc, type: 3}
       propertyPath: m_TagString
@@ -57970,11 +57970,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557026744999182147, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 2.985869e-39
+      value: -2.985869e-39
       objectReference: {fileID: 0}
     - target: {fileID: 557026744999182147, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -9.77288e-40
+      value: 9.77288e-40
       objectReference: {fileID: 0}
     - target: {fileID: 557026746231574349, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_FollowOffset.y
@@ -58018,11 +58018,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 557026746386202415, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000027408271
+      value: -0.000000024339352
       objectReference: {fileID: 0}
     - target: {fileID: 557026746386202415, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000064702155
+      value: 0.000000005745741
       objectReference: {fileID: 0}
     - target: {fileID: 557026746769303264, guid: 5a3dbdd7f020e614aa0f136b8de30fe6, type: 3}
       propertyPath: m_Name
@@ -58157,6 +58157,10 @@ PrefabInstance:
     - target: {fileID: 645699477463672748, guid: c51e12ca2a1ebc749b67d0414f386805, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 645699477463672748, guid: c51e12ca2a1ebc749b67d0414f386805, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 645699477464103884, guid: c51e12ca2a1ebc749b67d0414f386805, type: 3}
       propertyPath: m_RootOrder

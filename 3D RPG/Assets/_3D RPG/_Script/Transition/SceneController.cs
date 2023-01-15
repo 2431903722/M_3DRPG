@@ -80,4 +80,43 @@ public class SceneController : Singleton<SceneController>
 
         return null;
     }
+
+    public void TransitionToMain()
+    {
+        StartCoroutine(LoadMain());
+    }
+
+    //加载保存的场景
+    public void TransitionToLoadGame()
+    {
+        StartCoroutine(LoadLevel(SaveManager.Instance.SceneName));
+    }
+
+    //传送到第一个场景
+    public void TransitionToFirstLevel()
+    {
+        StartCoroutine(LoadLevel("SampleScene"));
+    }
+
+    IEnumerator LoadLevel(string sceneName)
+    {
+        if (sceneName != "")
+        {
+            yield return SceneManager.LoadSceneAsync(sceneName);
+            yield return player = Instantiate(playerPrefab, GameManager.Instance.GetEntrance().position, GameManager.Instance.GetEntrance().rotation);
+        }
+
+        //保存数据
+        SaveManager.Instance.SavePlayerData();
+
+        //结束协程
+        yield break;
+    }
+
+    //加载主菜单
+    IEnumerator LoadMain()
+    {
+        yield return SceneManager.LoadSceneAsync("Main");
+        yield break;
+    }
 }
