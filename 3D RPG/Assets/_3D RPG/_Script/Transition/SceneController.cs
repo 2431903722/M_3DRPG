@@ -4,17 +4,29 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 
-public class SceneController : Singleton<SceneController>
+public class SceneController : Singleton<SceneController>, IEndGameObserver
 {
     public GameObject playerPrefab;
+    public SceneFader sceneFaderPrefab;
     GameObject player;
     NavMeshAgent playerAgent;
+
+    //是否在过渡中
+    bool fadeFinished;
 
     //加载的时候保存Manager
     override protected void Awake()
     {
         base.Awake();
         DontDestroyOnLoad(this);
+    }
+
+    private void Start()
+    {
+        //注册观察者
+        GameManager.Instance.AddObserver(this);
+
+        fadeFinished = true;
     }
 
     public void TransitionToDestination(TransitionPoint transitionPoint)
@@ -100,23 +112,52 @@ public class SceneController : Singleton<SceneController>
 
     IEnumerator LoadLevel(string sceneName)
     {
+        //生成淡入淡出效果
+        SceneFader fade = Instantiate(sceneFaderPrefab);
+
         if (sceneName != "")
         {
+            //淡出
+            yield return StartCoroutine(fade.FadeOut(2.5f));
+            
             yield return SceneManager.LoadSceneAsync(sceneName);
             yield return player = Instantiate(playerPrefab, GameManager.Instance.GetEntrance().position, GameManager.Instance.GetEntrance().rotation);
+
+            //保存数据
+            SaveManager.Instance.SavePlayerData();
+
+            //淡入
+            yield return StartCoroutine(fade.FadeIn(2.5f));
+
+            //结束协程
+            yield break;
         }
-
-        //保存数据
-        SaveManager.Instance.SavePlayerData();
-
-        //结束协程
-        yield break;
     }
 
     //加载主菜单
     IEnumerator LoadMain()
     {
+        //生成淡入淡出效果
+        SceneFader fade = Instantiate(sceneFaderPrefab);
+
+        //淡出
+        yield return StartCoroutine(fade.FadeOut(2.5f));
+
         yield return SceneManager.LoadSceneAsync("Main");
+
+        //淡入
+        yield return StartCoroutine(fade.FadeIn(2.5f));
+        
         yield break;
+    }
+
+    public void EndNotify()
+    {
+        //避免重复播放
+        if (fadeFinished)
+        {
+            fadeFinished = false;
+            StartCoroutine(LoadMain());
+        }
     }
 }
